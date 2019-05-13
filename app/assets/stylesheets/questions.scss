@@ -1,3 +1,32 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.ask {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+form {
+  #type {
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+  }
+  #button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4267B2;
+    color: white;
+    font-weight: bold;
+  }
+}
+.answer {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+  a {
+    text-decoration: none;
+    color: #4267B2;
+  }
+}
+.coach {
+  width: 400px;
+  background-color: #F1FFE7;
+}
